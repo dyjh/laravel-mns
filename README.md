@@ -50,6 +50,9 @@ QUEUE_MNS_SECRET_KEY=your_secret_key
 QUEUE_MNS_ENDPOINT=http://12345678910.mns.cn-hangzhou.aliyuncs.com/
 ```
 You should update `QUEUE_MNS_ENDPOINT` to `internal endpoint` in production mode
+## MessageReceiver Example
+
+please look at [Example](ReceiveExample.php)
 
 ## Usage
 
@@ -117,10 +120,6 @@ Create RAM access control at [Aliyun RAM Console](https://ram.console.aliyun.com
 4. Create and get the `AccessKeyId` and `AccessKeySecret` for user `foorbar`
 
 5. update `QUEUE_MNS_ACCESS_KEY` and `QUEUE_MNS_ACCESS_SECRET` in `.env`
-
-## Change log
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Testing
 
