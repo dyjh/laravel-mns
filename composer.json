@@ -1,0 +1,29 @@
+{
+    "name": "dyjh/laravel-mns",
+    "type": "library",
+    "description": "This package aggregate the message queue of laravel and aliyun IOT MNS.",
+    "keywords": [
+        "php",
+        "laravel",
+        "aliyun-mns",
+        "mns",
+        "aliyun"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richod Deng",
+            "email": "953068028@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "laravel/framework": ">=6.0.0",
+        "aliyun/aliyun-mns-php-sdk": "^1.1.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Dyjh\\LaravelMNS\\": "/"
+        }
+    }
+}
