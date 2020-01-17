@@ -1,6 +1,6 @@
 <?php
 
-namespace App\server\LaravelMNS\Adaptors;
+namespace Dyjh\LaravelMNS\Adaptors;
 
 use AliyunMNS\AsyncCallback;
 use AliyunMNS\Client;
