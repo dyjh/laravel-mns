@@ -14,7 +14,7 @@ The Laravel adaptation of aliyun messaging service (MNS) is essentially the addi
 Via Composer
 
 ``` bash
-$ composer require lokielse/laravel-mns
+$ composer require dyjh/laravel-mns
 ```
 
 ## Config
@@ -22,7 +22,7 @@ $ composer require lokielse/laravel-mns
 Add following service providers into your providers array in `config/app.php`
 
 ``` php
-Lokielse\LaravelMNS\LaravelMNSServiceProvider::class
+Dyjh\LaravelMNS\LaravelMNSServiceProvider::class
 ```
 
 Edit your `config/queue.php`, add `mns` connection
@@ -75,6 +75,11 @@ Create queue listener, run command in terminal
 
 ```bash
 $ php artisan queue:listen
+```
+or only create the receiver queue
+
+```bash
+$ php artisan queue:work mns
 ```
 ## Commands
 Flush MNS messages on Aliyun
