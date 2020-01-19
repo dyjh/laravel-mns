@@ -52,7 +52,7 @@ QUEUE_MNS_ENDPOINT=http://12345678910.mns.cn-hangzhou.aliyuncs.com/
 You should update `QUEUE_MNS_ENDPOINT` to `internal endpoint` in production mode
 ## MessageReceiver Example
 
-please look at [Example](ReceiveExample.php)
+About [ReceiveController], please look at [Example](ReceiveExample.php)
 
 ## Usage
 
